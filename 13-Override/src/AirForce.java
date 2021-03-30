@@ -5,7 +5,7 @@ public class AirForce extends Unit {
 		super(name);
 
 	}
-
+	@Override 
 	public void attack() {
 		super.attack();
 		System.out.println(this.getName() + " >> 이륙");
