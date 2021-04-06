@@ -1,0 +1,19 @@
+{
+	"rss": 
+	{
+		"item": 
+		[
+			{
+				"title": "파일 형식의 데이터",
+				"description": "가장 기초적인 문자열 형식",
+				"pubDate": "2014-12-25"
+			},
+
+			{
+				"title": "JSON 형식의 데이터",
+				"description": "데이터를 key와 value로 구조화한 형식",
+				"pubDate": "2014-12-31"
+			}
+		]
+	}
+}
