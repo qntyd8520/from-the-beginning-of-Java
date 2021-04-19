@@ -1,0 +1,15 @@
+2021-04-19 15:51:47,689 DEBUG [org.apache.ibatis.logging.LogFactory] Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2021-04-19 15:51:47,770 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2021-04-19 15:51:47,770 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2021-04-19 15:51:47,771 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2021-04-19 15:51:47,772 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2021-04-19 15:51:48,005 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Opening JDBC Connection
+2021-04-19 15:51:49,090 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] Created connection 1933077874.
+2021-04-19 15:51:49,092 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@73386d72]
+2021-04-19 15:51:49,105 DEBUG [DepartmentMapper.remove_department] ==>  Preparing: DELETE FROM department WHERE deptno=?; 
+2021-04-19 15:51:49,182 DEBUG [DepartmentMapper.remove_department] ==> Parameters: 314(Integer)
+2021-04-19 15:51:49,187 DEBUG [DepartmentMapper.remove_department] <==    Updates: 1
+2021-04-19 15:51:49,188 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@73386d72]
+2021-04-19 15:51:49,194 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@73386d72]
+2021-04-19 15:51:49,196 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@73386d72]
+2021-04-19 15:51:49,196 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] Returned connection 1933077874 to pool.
