@@ -1,0 +1,30 @@
+2021-04-20 18:34:59,254 DEBUG [org.apache.ibatis.logging.LogFactory] Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2021-04-20 18:34:59,280 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2021-04-20 18:34:59,280 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2021-04-20 18:34:59,281 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2021-04-20 18:34:59,281 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2021-04-20 18:34:59,405 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Opening JDBC Connection
+2021-04-20 18:34:59,892 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] Created connection 972843820.
+2021-04-20 18:34:59,894 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@39fc6b2c]
+2021-04-20 18:34:59,898 DEBUG [StudentMapper.get_student_list] ==>  Preparing: SELECT studno, name, userid, grade, idnum, DATE_FORMAT(birthdate, '%Y-%m-%d'), tel, height, weight, deptno, profno FROM student ORDER BY studno ASC; 
+2021-04-20 18:34:59,950 DEBUG [StudentMapper.get_student_list] ==> Parameters: 
+2021-04-20 18:34:59,996 DEBUG [StudentMapper.get_student_list] <==      Total: 16
+2021-04-20 18:34:59,999 DEBUG [Student_Main.Main05] 조회결과[0] >> Student [studno=10102, name=박미경, userid=ansel414, grade=1, idnum=8405162123648, birthdate=null, tel=055)261-8947, height=168, weight=52, deptno=101, profno=0]
+2021-04-20 18:34:59,999 DEBUG [Student_Main.Main05] 조회결과[1] >> Student [studno=10103, name=김영균, userid=mandu, grade=3, idnum=8103211063421, birthdate=null, tel=051)824-9637, height=170, weight=88, deptno=101, profno=9906]
+2021-04-20 18:35:00,000 DEBUG [Student_Main.Main05] 조회결과[2] >> Student [studno=10104, name=지은경, userid=gomo00, grade=2, idnum=8004122298371, birthdate=null, tel=055)418-9627, height=161, weight=42, deptno=101, profno=9907]
+2021-04-20 18:35:00,001 DEBUG [Student_Main.Main05] 조회결과[3] >> Student [studno=10105, name=임유진, userid=youjin12, grade=2, idnum=8301212196482, birthdate=null, tel=02)312-9838, height=171, weight=54, deptno=101, profno=9907]
+2021-04-20 18:35:00,001 DEBUG [Student_Main.Main05] 조회결과[4] >> Student [studno=10106, name=서재진, userid=seolly, grade=1, idnum=8511291186273, birthdate=null, tel=051)239-4861, height=186, weight=72, deptno=101, profno=0]
+2021-04-20 18:35:00,002 DEBUG [Student_Main.Main05] 조회결과[5] >> Student [studno=10107, name=이광훈, userid=huriky, grade=4, idnum=8109131276431, birthdate=null, tel=055)736-4981, height=175, weight=92, deptno=101, profno=9903]
+2021-04-20 18:35:00,002 DEBUG [Student_Main.Main05] 조회결과[6] >> Student [studno=10108, name=류민정, userid=cleansky, grade=2, idnum=8108192157498, birthdate=null, tel=055)248-3679, height=162, weight=72, deptno=101, profno=9907]
+2021-04-20 18:35:00,003 DEBUG [Student_Main.Main05] 조회결과[7] >> Student [studno=10110, name=홍길동, userid=hkd85, grade=1, idnum=8501011143098, birthdate=null, tel=055)-777-7777, height=170, weight=70, deptno=101, profno=9903]
+2021-04-20 18:35:00,004 DEBUG [Student_Main.Main05] 조회결과[8] >> Student [studno=10111, name=또치, userid=ddochi, grade=1, idnum=8008082111111, birthdate=null, tel=02)123-4567, height=150, weight=50, deptno=101, profno=9921]
+2021-04-20 18:35:00,004 DEBUG [Student_Main.Main05] 조회결과[9] >> Student [studno=10201, name=김진영, userid=simply, grade=2, idnum=8206062186327, birthdate=null, tel=055)419-6328, height=164, weight=48, deptno=102, profno=9905]
+2021-04-20 18:35:00,005 DEBUG [Student_Main.Main05] 조회결과[10] >> Student [studno=10202, name=오유석, userid=yousuk, grade=4, idnum=7709121128379, birthdate=null, tel=051)724-9618, height=177, weight=92, deptno=102, profno=9905]
+2021-04-20 18:35:00,006 DEBUG [Student_Main.Main05] 조회결과[11] >> Student [studno=10203, name=하나리, userid=hanal, grade=1, idnum=8501092378641, birthdate=null, tel=055)296-3784, height=160, weight=68, deptno=102, profno=0]
+2021-04-20 18:35:00,006 DEBUG [Student_Main.Main05] 조회결과[12] >> Student [studno=10204, name=윤진욱, userid=samba7, grade=3, idnum=7904021358671, birthdate=null, tel=053)487-2698, height=171, weight=70, deptno=102, profno=9905]
+2021-04-20 18:35:00,007 DEBUG [Student_Main.Main05] 조회결과[13] >> Student [studno=20101, name=이동훈, userid=dals, grade=1, idnum=8312101128467, birthdate=null, tel=055)426-1752, height=172, weight=64, deptno=201, profno=0]
+2021-04-20 18:35:00,008 DEBUG [Student_Main.Main05] 조회결과[14] >> Student [studno=20102, name=박동진, userid=ping2, grade=1, idnum=8511241639826, birthdate=null, tel=051)742-6384, height=182, weight=70, deptno=201, profno=0]
+2021-04-20 18:35:00,008 DEBUG [Student_Main.Main05] 조회결과[15] >> Student [studno=20104, name=조명훈, userid=rader214, grade=1, idnum=8412141254963, birthdate=null, tel=02)785-6984, height=184, weight=62, deptno=201, profno=0]
+2021-04-20 18:35:00,009 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@39fc6b2c]
+2021-04-20 18:35:00,010 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@39fc6b2c]
+2021-04-20 18:35:00,010 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] Returned connection 972843820 to pool.
