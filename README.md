@@ -7,5 +7,3 @@
 41번 폴더부터는 Eclipse EE를 사용 (JSP)
 
 
-JavaScript는 별도폴더
-
