@@ -1,0 +1,5 @@
+[2021-06-07 12:25:36.099][DEBUG] log_jsp._jspService(log_jsp.java:125) Hello Debug Log
+[2021-06-07 12:25:36.105][INFO ] log_jsp._jspService(log_jsp.java:126) Hello Info Log
+[2021-06-07 12:25:36.106][WARN ] log_jsp._jspService(log_jsp.java:127) Hello Warning Log
+[2021-06-07 12:25:36.107][ERROR] log_jsp._jspService(log_jsp.java:128) Hello Error Log
+[2021-06-07 12:27:02.135][DEBUG] HelloModel.printLog(HelloModel.java:15) HelloModel 객체가 생성되었습니다.
