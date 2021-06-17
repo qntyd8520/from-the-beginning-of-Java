@@ -14,7 +14,17 @@
 		<org.aspectj-version>1.9.6</org.aspectj-version>
 		<org.slf4j-version>1.7.30</org.slf4j-version>
 	</properties>
+
+	<!-- 저장소 주소 추가 -->
+	<repositories>
+		<!-- UserAgent 모듈 -->
+		<repository>
+			<id>clojars</id>
+			<url>http://clojars.org/repo/</url>
+		</repository>
+	</repositories>
 	<dependencies>
+
 		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -133,16 +143,32 @@
 			<artifactId>taglibs-standard-impl</artifactId>
 			<version>1.2.5</version>
 		</dependency>
-		
+
 		<!-- ========== JSP 수업에서 활용한 라이브러리들에 대한 의존성 설정 ========== -->
-        <!-- Lombok -->
-        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.16</version>
-            <scope>provided</scope>
-        </dependency>
+		<!-- Lombok -->
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.16</version>
+			<scope>provided</scope>
+		</dependency>
+		
+		<!-- clojure -->
+		<!-- https://mvnrepository.com/artifact/org.clojure/clojure -->
+		<dependency>
+			<groupId>org.clojure</groupId>
+			<artifactId>clojure</artifactId>
+			<version>1.10.1</version>
+		</dependency>
+
+		<!-- UserAgent -->
+		<!-- https://github.com/russellwhitaker/uap-clj -->
+		<dependency>
+			<groupId>uap-clj</groupId>
+			<artifactId>uap-clj</artifactId>
+			<version>1.3.3</version>
+		</dependency>
 
 		<!-- Test -->
 		<dependency>
