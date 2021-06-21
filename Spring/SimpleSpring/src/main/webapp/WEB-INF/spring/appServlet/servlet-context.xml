@@ -4,7 +4,9 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:beans="http://www.springframework.org/schema/beans"
 	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:task="http://www.springframework.org/schema/task"
 	xsi:schemaLocation="http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.3.xsd
 		http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
@@ -32,6 +34,27 @@
 	<!-- 컨트롤러나 서비스의 구현체가 포함되어 있는 패키지들 나열 -->
 	<context:component-scan
 		base-package="study.spring.simplespring.controllers" />
+	<context:component-scan
+		base-package="study.spring.simplespring.service.impl" />
+
+	<!-- 스케쥴러 어노테이션 선언 -->
+<!-- 	<task:annotation-driven /> // 실습에서는 디버깅을 위해서 주석처리
+
+	스케줄러로 동작할 객체 생성
+	<beans:bean id="scheduleJob"
+		class="study.spring.simplespring.scheduler.SimpleScheduler" />
+		
+	생성한 스케쥴러 객체에 대한 작업 스케쥴 지정
+	<task:scheduled-tasks>
+		1초마다 실행되는 작업
+		<task:scheduled ref="scheduleJob" method="everySeconds" cron="* * * * * ?"/>
+		매분 0초에 실행되는 작업
+		<task:scheduled ref="scheduleJob" method="everyMinites" cron="0 * * * * ?"/>
+		10초마다 한 번 씩 실행되는 작업
+		<task:scheduled ref="scheduleJob" method="every10Seconds" cron="0/10 * * * * ?"/>
+		매일 자정에 실행되는 작업
+		<task:scheduled ref="scheduleJob" method="everyMidnight" cron="0 0 0 * * ?"/>
+	</task:scheduled-tasks> -->
 
 	<!-- 인터셉터 등록 -->
 	<interceptors>
