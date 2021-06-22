@@ -48,6 +48,16 @@
 		<li><a href="${pageContext.request.contextPath }/aop/calc.do">AOP
 				테스트</a></li>
 	</ul>
+	
+	<!-- 데이터베이스 연동 -->
+	<h2>Database</h2>
+	<ul>
+		<li>
+			<a href="${pageContext.request.contextPath }/department/list.do">
+			학과관리 웹 페이지
+			</a>
+		</li>
+	</ul>
 	<script type="text/javascript"
 		src="${pageContext.request.contextPath}/assets/js/script.js"></script>
 </body>

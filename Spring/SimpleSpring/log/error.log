@@ -1,0 +1,22 @@
+[2021-06-22 17:15:44.686][ERROR] DepartmentServiceImpl.getDepartmentCount(DepartmentServiceImpl.java:87) nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for DepartmentMapperCountAll
+### Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for DepartmentMapperCountAll
+[2021-06-22 17:15:44.687][ERROR] DepartmentServiceTest.testC(DepartmentServiceTest.java:88) 데이터 조회에 실패했습니다.
+[2021-06-22 17:36:02.222][ERROR] DepartmentServiceImpl.editDepartment(DepartmentServiceImpl.java:143) result=0
+[2021-06-22 17:36:02.223][ERROR] DepartmentServiceTest.testF(DepartmentServiceTest.java:144) 조회된 데이터가 없습니다.
+[2021-06-22 17:38:01.458][ERROR] DepartmentServiceImpl.editDepartment(DepartmentServiceImpl.java:143) result=0
+[2021-06-22 17:38:01.459][ERROR] DepartmentServiceTest.testF(DepartmentServiceTest.java:144) 조회된 데이터가 없습니다.
+[2021-06-22 17:38:57.224][ERROR] DepartmentServiceImpl.editDepartment(DepartmentServiceImpl.java:143) result=0
+[2021-06-22 17:38:57.225][ERROR] DepartmentServiceTest.testF(DepartmentServiceTest.java:144) 수정된 데이터가 없습니다.
+[2021-06-22 17:44:24.357][ERROR] DepartmentServiceImpl.editDepartment(DepartmentServiceImpl.java:143) result=0
+[2021-06-22 17:44:24.358][ERROR] DepartmentServiceTest.testF(DepartmentServiceTest.java:144) 수정된 데이터가 없습니다.
+[2021-06-22 17:44:24.409][ERROR] DepartmentServiceImpl.editDepartment(DepartmentServiceImpl.java:143) result=0
+[2021-06-22 17:44:24.410][ERROR] DepartmentServiceTest.testG(DepartmentServiceTest.java:161) 수정된 데이터가 없습니다.
+[2021-06-22 17:46:20.754][ERROR] DepartmentServiceImpl.editDepartment(DepartmentServiceImpl.java:143) result=0
+[2021-06-22 17:46:20.754][ERROR] DepartmentServiceTest.testF(DepartmentServiceTest.java:144) 수정된 데이터가 없습니다.
+[2021-06-22 17:46:20.810][ERROR] DepartmentServiceImpl.deleteDepartment(DepartmentServiceImpl.java:170) result=0
+[2021-06-22 17:46:20.811][ERROR] DepartmentServiceTest.testG(DepartmentServiceTest.java:161) 삭제된 데이터가 없습니다.
+[2021-06-22 18:53:30.039][ERROR] DepartmentServiceImpl.editDepartment(DepartmentServiceImpl.java:143) result=0
+[2021-06-22 18:53:30.040][ERROR] DepartmentServiceTest.testF(DepartmentServiceTest.java:144) 수정된 데이터가 없습니다.
+[2021-06-22 18:53:30.088][ERROR] DepartmentServiceImpl.deleteDepartment(DepartmentServiceImpl.java:170) result=0
+[2021-06-22 18:53:30.088][ERROR] DepartmentServiceTest.testG(DepartmentServiceTest.java:161) 삭제된 데이터가 없습니다.
