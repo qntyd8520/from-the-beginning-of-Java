@@ -35,6 +35,10 @@
         </where>
         
         ORDER BY deptno DESC
+        
+        <if test="listCount > 0">
+        	LIMIT #{offset}, #{listCount}
+        </if>
     </select>
 
     <!-- 데이터 저장을 위한 기능 정의 -->
