@@ -21,6 +21,15 @@
 			href="${pageContext.request.contextPath}/retrofit/kakao_image_search.do">
 				/retrofit/kakao_image_search.do</a></li>
 	</ul>
+
+	<br />
+
+	<h2>데이터베이스 연동(고급)</h2>
+	<ul>
+		<li><a
+			href="${pageContext.request.contextPath }/professor/list.do">
+				교수관리 웹페이지 </a></li>
+	</ul>
 </body>
 </html>
 
